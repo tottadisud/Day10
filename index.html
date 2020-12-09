@@ -1,0 +1,224 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+    <p id="demo11"></p>
+
+
+
+
+        <script>
+           
+          /*DATA TYPES:
+             var a;
+            typeof(a);-undefined
+
+            var num=20;
+            typeof(num);-number
+
+            var bool=true;
+            typeof(bool);-boolean
+
+            var h=null;
+            typeof(h);-object
+
+            var array=[]
+            typeof(array);-object
+
+            var str="123"
+            typeof(str);-String
+            str=number(str)
+            typeof(str);-number
+
+            var number=123.59;
+            number=parseInt(number);-123
+
+            var number=123.59;
+          number=parseInt(number);-123
+
+          var str="123.59";
+          str=parseInt(str);-123
+          typeof(str)-"number"
+
+          var str2=122.56;
+          str2=parseFloat(str2);-122.56
+          typeof(str2)-"number"
+
+          var value=true;
+          value=Number(value);-1(conver boolean to number)
+
+          var h=10;
+          h=String(h);-"10"
+
+          console.log("sssss")
+          console.warn("this is warning");
+          console.error("error");
+
+          console.assert(false,"errormessage")
+
+          console.log(0>2,"not possible")
+          console.log(0<2,"not possible")
+
+          console.count();-default: 1
+          console.info("helloworld")
+
+
+
+                      var j=0;
+                      do{
+                           console.log(i);
+                     j+=1
+                    }
+                   while(j<5)
+
+
+
+
+            var sample2=5;
+              sample2
+
+              function greet(){
+                  console.log("hello world");
+              }
+              typeof(greet);-function
+              typeof(greet());-undefined
+              typeof(greet1());-string
+
+              a=prompt("enter a value")
+              int(a)
+
+              var userInput=prompt("enter a value");
+if(userInpu==1){
+var check=prompt("enter the value checking even conditions")
+if(Number(check)%2==0){
+console.log("even number");
+}else{
+console.log("odd number");
+}
+}
+else{
+console.warn("option not found");
+}
+
+               var option=prompt("enter a value");
+               typeof(Number(option));-number
+                var option=prompt("enter a value");
+               Number(option);-NAN
+              */
+
+
+
+            function greet(){
+                 return "hello world";
+              }
+
+
+            var a='sudheer';
+            var b='kumar';
+            var c=a+b;
+            var day;
+            switch(day=5){
+             case 0:
+                     day="Monady"
+                     break;
+             case 1:
+                     day="tuesday"
+                     break;
+             case 2:
+                     day="wednesday"
+                     break;
+             case 3:
+                     day="thursday"
+                     break;
+             case 4:
+                     day="friday"
+                     break;
+             case 5:
+                     day="saturday"
+                     break;
+             case 6:
+                     day="sunday"
+                     break;
+            }
+            document.getElementById("demo5").innerHTML = "Today is " + day    
+
+
+
+             number=45;
+            if(number%2==0){
+                document.getElementById("demo3").innerHTML = "Even number"    
+            }else{
+                document.getElementById("demo4").innerHTML="Not even number";
+
+            }
+
+            var text = "";
+           var i = 0;
+           while (i < 10) {
+           text += "<br>The number is " + i;
+           i++;
+       
+         document.getElementById("demo6").innerHTML = text;
+        }  
+
+        var text= "";
+        var  j = 0;
+        
+                      do{
+
+                                    text += "<br>The number is " + j;
+
+                      j++
+                    
+                    }
+                   while(j < 10)
+                   document.getElementById("demo7").innerHTML = text;
+
+
+
+                       var z;
+                       var text="";
+
+                   for(z=0;z<5;z++){
+                    text += "The number is " + z + "<br>";
+
+                    document.getElementById("demo8").innerHTML =text;
+
+
+                   }
+           
+    
+
+        
+
+            document.getElementById("demo").innerHTML = 5 + 6;
+            document.getElementById("demo1").innerHTML = c;
+            document.getElementById("demo2").innerHTML = greet();
+                console.log(5 + 6);
+                document.getElementById("demo9").innerHTML = alert("hello");
+                prompt("enter a value")
+
+                document.getElementById("demo10").innerHTML =  + int(a);
+
+                document.getElementById("demo11").innerHTML = confirm("are u delete");
+
+                </script>
+    
+</body>
+</html>
